@@ -1,1 +1,35 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-image: linear-gradient(to bottom, #086a0e, rgb(83, 137, 12));
+  font-family: "Castoro Titling", cursive;
+  height: 100vh;
+}
+h1 {
+  color: rgb(214, 205, 18);
+  text-shadow: 2px 2px 8px #000000;
+}
+.pokerBody {
+  background-color: white;
+  height: 500px;
+  width: 350px;
+
+  border-radius: 15px;
+}
+
+.symbolItem {
+  font-size: 6em;
+}
+
+.centerItem {
+  font-size: 6em;
+}
+
+.row {
+  height: 100%;
+}
+
+.rotateClass {
+  transform: rotate(180deg);
+  padding-bottom: 355px;
+}
