@@ -31,7 +31,7 @@ function getRandomCharacters(array) {
   return selectedItem;
 }
 window.onload = function() {
-  function handleClick() {
+  function buttomGenerator() {
     const randomSymbol = getRandomCharacters(symbolsArr);
     const randomNumber = getRandomCharacters(numbersArr);
 
@@ -52,5 +52,5 @@ window.onload = function() {
       }, 200);
     }
   }
-  generatorButton.addEventListener("click", handleClick);
+  generatorButton.addEventListener("click", buttomGenerator);
 };
